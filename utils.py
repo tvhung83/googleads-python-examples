@@ -1,9 +1,7 @@
-import hashlib
-
-# Import appropriate modules from the client library.
-from googleads import adwords
-
 def upload(list_name, list_desc, list_type, members, app_id=None):
+  # Import appropriate modules from the client library.
+  from googleads import adwords
+
   # Initialize client object.
   client = adwords.AdWordsClient.LoadFromStorage('googleads.yaml')
 
@@ -55,4 +53,5 @@ def NormalizeAndSHA256(s):
   Returns:
     A normalized and SHA-256 hashed string.
   """
+  import hashlib
   return hashlib.sha256(s.strip().lower()).hexdigest()
