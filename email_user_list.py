@@ -58,7 +58,7 @@ def main(client):
   user_list_id = result['value'][0]['id']
 
   emails = tuple(open(email_path, 'r'))
-  members = [{'hashedEmail': NormalizeAndSHA256(email.strip())} for email in emails]
+  members = [{'hashedEmail': NormalizeAndSHA256(email)} for email in emails]
 
   mutate_members_operation = {
       'operand': {
