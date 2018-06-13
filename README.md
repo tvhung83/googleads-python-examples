@@ -3,9 +3,9 @@
 A set of CRM-based UserList examples, each example is to upload UserList by each
 type:
 - EMAIL
-- PHONE_NUMBER (wip)
-- MOBILE_ID (wip)
-- USER_ID (wip)
+- PHONE_NUMBER
+- MOBILE_ID
+- USER_ID
 
 ## How to run?
 
