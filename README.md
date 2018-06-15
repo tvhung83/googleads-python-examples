@@ -13,8 +13,8 @@ type:
 $ cp googleads_sample.yaml googleads.yaml
 $ vim googleads.yaml # Update credentials
 $ pip install googleads
-$ chmod +x email_user_list.py
-$ ./email_user_list.py
+$ chmod +x run.py
+$ ./run.py (email|phone_number|mobile_id|user_id)
 ```
 
 If you're on macOS and having permission issue, re-run with `sudo` or correct
