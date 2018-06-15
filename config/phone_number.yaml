@@ -1,0 +1,3 @@
+list_name: PHONE_NUMBER UserList
+list_desc: A list of customers that originated from PHONE_NUMBER, exported by Python example
+list_type: CONTACT_INFO

@@ -1,0 +1,4 @@
+list_name: MOBILE_ID UserList
+list_desc: A list of customers that originated from MOBILE_ID, exported by Python example
+list_type: MOBILE_ADVERTISING_ID
+app_id: '476943146' # Flood-It! 2 example app from AdWords doc

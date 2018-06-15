@@ -1,0 +1,4 @@
+list_name: EMAIL UserList
+list_desc: A list of customers that originated from EMAIL, exported by Python example
+list_type: CONTACT_INFO
+mode: replace
